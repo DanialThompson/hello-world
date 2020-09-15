@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 int main() {
-std::cout << "Hello World." << std::endl;
-return 0;
+    std::string name;
+    std::cout << "Enter Your Name: " << std::endl;
+    std::cin >> name;
+    std::cout << "Hello, " << name << "." << std::endl;
+    return 0;
 }
